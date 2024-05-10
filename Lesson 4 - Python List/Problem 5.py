@@ -1,12 +1,12 @@
-List = [8, 9, 10]#declares a list with its elements 8, 9, and 10
+List = [8, 9, 10]#declares a list with its elements as 8, 9, and 10
 
 print("Initial list: ", List)#prints the initial list
 
-List[1] = 17#sets the second element to 17
-List += [4, 5, 6]#appends 4,5,6 to the list
-List.pop(0)#removes the first element of the list
-List.sort()#sorts the list in ascending order
-List *= 2#doubles the list
-List.insert(3, 25)#inserts 35 to the 4th position
+List[1] = 17#sets the second element to 17 turning the list from [8, 9, 10] to [8, 17, 10]
+List += [4, 5, 6]#appends 4,5, and 6 to the list [8, 17, 10, 4, 5, 6]
+List.pop(0)#removes the first element of the list [17, 10, 4, 5, 6]
+List.sort()#sorts the list in ascending order [4, 5, 6, 10, 17]
+List *= 2#doubles the list [4, 5, 6, 10, 17, 4, 5, 6, 10, 17]
+List.insert(3, 25)#inserts 35 to the 4th position [4, 5, 6, 25, 10, 17, 4, 5, 6, 10, 17]
 
 print("Final list: ", List)#prints the final list
