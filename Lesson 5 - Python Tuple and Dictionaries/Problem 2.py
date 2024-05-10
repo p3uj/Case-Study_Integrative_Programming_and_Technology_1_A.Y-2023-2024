@@ -1,3 +1,11 @@
+"""
+Instruction: 
+Write a program that will ask user to input a list of integer tuples.
+
+- Ask also for another integer value and assign it to K.
+- Output the tuple that are divisible by K.
+"""
+
 print("Enter numerical values for tuple (separate by space):")
 while True:
     try:
