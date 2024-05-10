@@ -1,3 +1,4 @@
+# Initialize an empty list.
 list = []
 
 # Prompt the user to enter the size of the list.
@@ -8,18 +9,18 @@ for i in range(0, size_integers):
     integers = int(input("Enter an integer: "))
     list.append(integers)
 
-# Display the list
+# Display the list.
 print(f"List: {list}")
 
-# Sum of the list.
+# Calculate the total sum of the list using sum() function.
 total = sum(list)
 print(f"Total: {total}")
 
-# Last item in the list.
+#  Retrieve and print the last integer stored in the list.
 last = list[-1]
 print(f"Last integer: {last}")
 
-# Reverse the list.
+# Reverse the list using reverse() method.
 list.reverse()
 print(f"Reversed list: {list}")
 
@@ -33,9 +34,10 @@ else:
 less_than = len([integers for integers in list if integers < 5])
 print(f"Number of integers less than 5: {less_than}")
 
-# Remove the first and last element using slice operator.
+# Remove the first and last element using slice operator, with "1" indicating the first element and "-1" indicating the last element.
 list = list[1:-1]
-list.sort() # Sort the list.
+list.sort() # Sort the list using sort() method.
 
-# Print the list.
+# Print the content of list.
 print(f"Sorted list: {list}.")
+
