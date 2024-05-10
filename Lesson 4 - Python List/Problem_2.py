@@ -19,5 +19,5 @@ my_list = my_list + [67]
 my_list = my_list + ['apple']
 my_list = my_list + [6.5]
 
-# Print the content of my_list.
-print(my_list)
+# Print the content of my_list without adding new line after the print.
+print(my_list, end='')
