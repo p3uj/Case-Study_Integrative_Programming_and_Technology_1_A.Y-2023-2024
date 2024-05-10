@@ -2,7 +2,8 @@
 List = [8, 9, 10]
 #prints the initial list
 print("Initial list: ", List)
-#sets the second element to 17 turning the list from [8, 9, 10] to [8, 17, 10]
+#sets the second element to 17 turning the list 
+#from [8, 9, 10] to [8, 17, 10]
 List[1] = 17
 #appends 4,5, and 6 to the list [8, 17, 10, 4, 5, 6]
 List += [4, 5, 6]
