@@ -18,7 +18,7 @@ my_list.append(67)
 print(f"After appending 'banana' and 67: {my_list}")
 
 # b. Insert the value "dog" at position 3.
-my_list.insert(3, "dog")
+my_list.insert(2, "dog")
 print(f"After inserting the 'dog' at position 3: {my_list}")
 
 # c. Insert the value 909 at the start of the list.
